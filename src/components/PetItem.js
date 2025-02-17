@@ -3,7 +3,6 @@ import React from "react";
 import pets from "../data/petsData";
 
 const PetItem = ({ petName, petImage }) => {
-  const pet = pets[0];
   return (
     <View
       style={{
